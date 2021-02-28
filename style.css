@@ -1,0 +1,321 @@
+.highlight table td {
+  padding: 5px}
+.highlight table pre {
+  margin: 0}
+.highlight,.highlight .w {
+  color: #303030}
+.highlight .err {
+  color: #151515;
+  background-color: #ac4142}
+.highlight .c,.highlight .ch,.highlight .cd,.highlight .cm,.highlight .cpf,.highlight .c1,.highlight .cs {
+  color: #505050}
+.highlight .cp {
+  color: #f4bf75}
+.highlight .nt {
+  color: #f4bf75}
+.highlight .o,.highlight .ow {
+  color: #d0d0d0}
+.highlight .p,.highlight .pi {
+  color: #d0d0d0}
+.highlight .gi {
+  color: #90a959}
+.highlight .gd {
+  color: #ac4142}
+.highlight .gh {
+  color: #6a9fb5;
+  background-color: #151515;
+  font-weight: bold}
+.highlight .k,.highlight .kn,.highlight .kp,.highlight .kr,.highlight .kv {
+  color: #aa759f}
+.highlight .kc {
+  color: #d28445}
+.highlight .kt {
+  color: #d28445}
+.highlight .kd {
+  color: #d28445}
+.highlight .s,.highlight .sa,.highlight .sb,.highlight .sc,.highlight .dl,.highlight .sd,.highlight .s2,.highlight .sh,.highlight .sx,.highlight .s1 {
+  color: #90a959}
+.highlight .sr {
+  color: #75b5aa}
+.highlight .si {
+  color: #8f5536}
+.highlight .se {
+  color: #8f5536}
+.highlight .nn {
+  color: #f4bf75}
+.highlight .nc {
+  color: #f4bf75}
+.highlight .no {
+  color: #f4bf75}
+.highlight .na {
+  color: #6a9fb5}
+.highlight .m,.highlight .mb,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .il,.highlight .mo,.highlight .mx {
+  color: #90a959}
+.highlight .ss {
+  color: #90a959}
+div.highlight {
+  border-radius: 5px;
+  padding: 10px 20px 1px 20px;
+  margin-bottom: 12px;
+  font-size: 1.4em;
+  background: #efefef}
+pre.highlight {
+  padding-bottom: 10px}
+code {
+  background: #efefef;
+  border-radius: 5px;
+  padding: 3px 8px;
+  font: 15px/22px "Space Mono", "Courier New", Courier, monospace}
+.toys {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 20px}
+@media (max-width: 1200px) {
+  .toys {
+  grid-template-columns: repeat(5, 1fr)}
+}
+@media (max-width: 900px) {
+  .toys {
+  grid-template-columns: repeat(4, 1fr)}
+}
+@media (max-width: 700px) {
+  .toys {
+  grid-template-columns: repeat(3, 1fr)}
+}
+@media (max-width: 600px) {
+  .toys {
+  grid-template-columns: repeat(2, 1fr)}
+}
+.toys div {
+  transform: rotate(-1deg);
+  transition: 0.2s ease-in-out}
+.toys div:hover {
+  transform: rotate(1deg)}
+.toys div:hover a {
+  color: #2d3fd1}
+.toys img {
+  max-width: 100%;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.1)}
+.toys p {
+  font-size: 1.3em;
+  margin-top: 5px;
+  line-height: 1.1em}
+.toy_details {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 40px;
+  grid-row-gap: 20px}
+.toy_details .images img {
+  max-width: 100%;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.1)}
+.toy_details table {
+  font-size: 1.3em}
+.toy_details table th {
+  text-align: left}
+.toy_details table th,.toy_details table td {
+  padding: 3px 15px}
+@media (max-width: 700px) {
+  .toy_details {
+  grid-template-columns: 100%}
+.toy_details table {
+  order: 1}
+.toy_details .images {
+  order: 2}
+}
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  font: 11px/18px "Space Mono", "Courier New", Courier, monospace;
+  color: #222;
+  font-weight: 400}
+html:before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 10px;
+  content: "";
+  display: block;
+  min-height: 100%;
+  height: 100%;
+  background: orange;}
+.content {
+  margin: 5% 8% 10% 8%;
+  padding-bottom: 5%}
+hr {
+  margin-top: 30px;
+  border-top: 1px dashed #222;
+  border-bottom: 1px dashed #fff}
+a {
+  color: orange;
+  font-weight: bold;
+  text-decoration: none}
+a:hover {
+  color: white;
+  background: orange}
+h1,h2,h3,h4 {
+  margin: 0 0 15px 0;
+  padding: 0}
+h1,h2 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 35px}
+h1 time,h2 time {
+  top: -5px}
+h2 {
+  font-size: 30px;
+  margin-top: 35px;
+  line-height: 1.3em}
+h3 {
+  font-size: 20px;
+  margin-top: 35px}
+h4 {
+  font-size: 18px;
+  margin-top: 35px}
+p,ul {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 15px}
+ul {
+  list-style: square;
+  margin: 0 0 0 20px;
+  padding: 0}
+time,.coming_soon {
+  font-style: normal;
+  font-size: 11px;
+  background: #eee;
+  padding: 3px 6px;
+  font-weight: bold;
+  color: #999;
+  position: relative;
+  top: -1px;
+  margin-left: 0;
+  border-radius: 3px}
+header {
+  line-height: 12px}
+header:after {
+  content: "";
+  display: table;
+  clear: both}
+header h1 {
+  margin: 0;
+  padding-top: 5px;
+  line-height: 30px}
+header h1 a {
+  color: #222}
+header h1 .social {
+  font-size: 20px;
+  line-height: 12px;
+  top: -4px;
+  position: relative}
+header h1 .social a:hover {
+  background: transparent;
+  color: #2d3fd1}
+header img {
+  width: 140px;
+  height: 140px;
+  border-radius: 200px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px}
+@media only screen and (max-width: 600px) {
+  header img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0;
+  margin-right: 20px}
+header h1 {
+  font-size: 24px;
+  margin-bottom: 30px}
+}
+.projects h4 {
+  margin-bottom: 0}
+.projects p {
+  margin-top: 8px}
+.project-embed {
+  border: 0;
+  width: 100%;
+  height: 800px}
+article {
+  max-width: 800px}
+article img {
+  max-width: 100%}
+article p {
+  line-height: 1.65em;
+  margin-bottom: 22px}
+.published:hover {
+  background: none}
+.graph {
+  max-width: 100%;
+  box-shadow: 8px 8px #2d3fd1}
+.convo {
+  background: yellow;
+  text-align: center;
+  margin-top: 30px;
+  padding: 1px 0}
+.convo iframe {
+  top: 4px;
+  position: relative !important;
+  vertical-align: text-bottom !important}
+footer {
+  margin-top: 75px;
+  font-size: 13px;
+  color: #aaa}
+.project_list {
+  width: 100%}
+.project_list th {
+  text-align: left}
+.project_list td,.project_list th {
+  padding: 4px 8px}
+.project_list thead th {
+  border-bottom: 1px solid black}
+.project_list tbody tr:nth-child(odd) {
+  background-color: #f9f9f9}
+.project_list tbody td a {
+  display: block;
+  color: black;
+  font-weight: normal}
+.project_list tbody tr:hover {
+  cursor: pointer;
+  background-color: #2d3fd1;
+  color: white}
+.project_list tbody tr:hover a {
+  color: white}
+
+
+/* Global */
+
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    
+    border-right: 2px solid rgba(255,255,255,.75);
+   
+    
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
